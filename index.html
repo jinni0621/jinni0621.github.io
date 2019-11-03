@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>仙人掌世界</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <!-- 漢堡ICON -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">產品</a></li>
+                        <li><a href="#video" class="nav-link">介紹</a></li>
+                        <li><a href="#creative" class="nav-link">類型</a></li>
+                        <li><a href="#activity" class="nav-link">活動</a></li>
+                        <li><a href="#standard" class="nav-link">品種</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/Banner1.1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>檢驗合格</h1>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>品質保證</h1>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>產地直送</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner4.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>裝飾小物</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner6.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>不滿退貨</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+                <li data-target="#carousel-controller" data-slide-to="3"></li>
+                <li data-target="#carousel-controller" data-slide-to="4"></li>
+
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+            <iframe width="640" height="360" width="560" height="315" src="https://www.youtube.com/embed/ZCOFNEeICW4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                花盆推薦
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="images/function01.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">使用方式簡單</span>
+                                <span class="card-text">怎麼擺怎麼好看</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>簡潔漂亮 是你的好選擇</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="images/function02.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">使用方式簡單</span>
+                                <span class="card-text">怎麼擺怎麼好看</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>簡潔漂亮 是你的好選擇</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/function03.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">使用方式簡單</span>
+                                <span class="card-text">怎麼擺怎麼好看</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>簡潔漂亮 是你的好選擇</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/function04.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">使用方式簡單</span>
+                                <span class="card-text">怎麼擺怎麼好看</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>簡潔漂亮 是你的好選擇</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 商品文案 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                    <h3>仙人掌的照顧</h3>
+                    <p>每天上午 第一件事就是澆水</br>
+                        下班回家 在澆一次水</br>
+                        然後跟他說說話</br>
+                        它就會長的健康又漂亮
+                    </p>
+                    <h3>為甚麼要擺仙人掌</h3>
+                    <p>因為它很可愛</br>
+                        別人看到就愛上它</br>
+                        就會讓你從普通朋友變成超級好麻吉</br>
+                        這就是為甚麼要擺仙人掌
+                    </p>
+                    <h1>Cactus Empire</h1>
+                    <p>可愛的仙人掌 仙人掌的可愛</br>
+                        給您交朋友的最佳小擺飾
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="/images/back.jpg" alt="back" srcset=""> -->
+        <!-- 背景影片
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+                <img src="images/back.jpg.jpg">
+            </video>
+        </div> -->
+    </section>
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/activity_img1.jpg">
+                </div>
+
+                <div class="col-md-4 activity_price text-center">
+                    <h2>售價： <span>300 </span>元</h2>
+                    <h1>加送</h1>
+                    <h2>組合式花盆>></h2>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/activity_img2.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">規格說明：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">中英文品名：</th>
+                                <td>Cactus Empire多肉植物藝術</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">容器：</th>
+                                <td>鋁合金鐵桶</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">尺寸：</th>
+                                <td colspan="2">長：15cm 寬：15cm 高：20cm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">內容物：</th>
+                                <td colspan="2">多肉植物的仙人掌</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">產地：</th>
+                                <td colspan="2">台灣</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">使用說明：</h5>
+                        </tr>
+                        <ul class="standard_use">
+
+                            <li>此產品不可食用</li>
+                            <li>盡量放在小孩拿不到的地方，誤食就不好了</li>
+                            <li>若遇到損壞，插傷及碰撞的話，可以免費更換</li>
+                            <li>擺放在家裡的時候水不用一直加，一天大概2至3次</li>
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>貼心提醒</h4>
+                <div class="w-100"></div>
+                <p>使用時請注意：</p>
+                <ul>
+                    <li>請好好呵護它不然他會難過到死掉</li>
+                    <li>要把它當成人好好跟它說話它就會開心得越長會漂亮</li>
+                    <li>自己摔壞的話本公司一慮不負責</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/logo_blue.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：04-33556688</li>
+                        <li>服務時間：週一至週五 9:00 ~ 18:00</li>
+                        <li>服務信箱：asd213329@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 halla malmo .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+        </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
